@@ -1,0 +1,23 @@
+{
+  "name": "hacker-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "servor src --reload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "servor": "^4.0.2",
+    "standard": "^14.3.4"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "htm": "^3.0.4",
+    "preact": "^10.5.4"
+  }
+}
